@@ -50,7 +50,7 @@ Models were evaluated on:
 - F1-score
 - Confusion Matrix
 
-# 🏆 Results Summary
+## 🏆 Results Summary
 
 | Model | Test Accuracy | Summary |
 |--------|---------------|---------|
@@ -60,14 +60,14 @@ Models were evaluated on:
 
 ✔ **CNN achieved the highest accuracy (96%)**, clearly outperforming traditional models due to its strong feature extraction capabilities.
 
-# 🔍 Key Insights
+## 🔍 Key Insights
 
 - The current system detects **only face-based deepfakes**.
 - Logistic Regression and SVM cannot fully capture **complex manipulation artifacts**.
 - CNN models like **ResNet-18** provide significantly better results because they learn **visual features hierarchically**.
 - **Deep learning is essential** for modern deepfake detection systems.
 
-# 🚀 Future Work
+## 🚀 Future Work
 
 ### Extend detection beyond faces:
 - Full-body deepfakes  
@@ -80,7 +80,7 @@ Models were evaluated on:
 - Experiment with **EfficientNet, MobileNet, Vision Transformers (ViT)**
 
 
-# 📁 Repository Structure
+## 📁 Repository Structure
 
 ```
 ├── Models/
@@ -92,3 +92,15 @@ Models were evaluated on:
 ├── README.md
 └── requirements.txt
 ```
+
+## ⚡ Interface
+
+A simple single web page has been designed by Gradio in Google Colab.
+Steps to run the Interface:
+1. Generate the model file `deepfake_best.pth` by the `CNN_RestNet` notebook.
+2. Upload the model in Google Drive
+3. From Google Colab, run the first cell to mount the drive in Google Colab
+4. Run the second cell to run Gradio Interface and click on the local URL or public URL
+
+<img width="731" height="355" alt="image" src="https://github.com/user-attachments/assets/6e90484f-f1eb-45a1-aa26-ced3807ad414" />
+
