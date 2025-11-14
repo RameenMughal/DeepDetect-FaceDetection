@@ -87,6 +87,7 @@ Models were evaluated on:
 │ ├── Simple_Logistic_Regression.ipynb
 │ ├── Support_Vector_Machine.py
 │ ├── CNN_RestNet.py
+├── Gradio_Interface.ipynb
 ├── Results.md
 ├── README.md
 └── requirements.txt
