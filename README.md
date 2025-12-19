@@ -98,7 +98,7 @@ Models were evaluated on:
 A simple single web page has been designed by Gradio in Google Colab.
 Steps to run the Interface:
 1. Generate the model file `deepfake_best.pth` by the `CNN_RestNet` notebook.
-2. Upload the model in Google Drive
+2. Upload the model in Google Drive.
 3. From Google Colab, run the first cell to mount the drive in Google Colab
 4. Run the second cell to run Gradio Interface and click on the local URL or public URL
 
